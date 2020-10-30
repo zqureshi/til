@@ -12,7 +12,7 @@ $ brew install hugo
 
 ```bash
 # start a post
-$ make my-awesome-post.md
+$ ./new my-awesome-post.md
 
 # run hugo locally
 $ make server

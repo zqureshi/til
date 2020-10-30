@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+if [[ -z "@" ]]; then
+  echo "usage: new title"
+  exit 1
+fi
+
+FILE="$@.md"
+hugo new "$FILE" && "$EDITOR" "content/$FILE"
