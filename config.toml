@@ -2,6 +2,7 @@ baseURL = "https://til.zqureshi.in"
 languageCode = "en-us"
 title = "Zeeshan Qureshi"
 theme = "kiss"
+paginate = 20
 pygmentsStyle = "monokai"
 pygmentsCodefences = true
 enableRobotsTXT = true
